@@ -20,7 +20,14 @@ public:
 			theColor = white;
 		}
 	}
-
+	/**
+	* Function name: is_blank
+	* @author Brock Ferrell(Documented by Mohamed Jallow)
+	* Function Declaration
+	* @brief This function returns the boolean value for the conditional "theColor == blank".
+	* @param there are no parameters
+	* @return the function returns true or false depeding on what is stored in the theColor variable.
+	*/
 	bool is_blank()const {return theColor == blank;}
 	bool is_black()const {return theColor == black;}
 	bool is_white()const {return theColor == white;}

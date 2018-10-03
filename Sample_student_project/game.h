@@ -60,6 +60,15 @@ protected:
 	virtual game* clone( ) const = 0;
 	// Compute all the moves that the next player can make:
 	virtual void compute_moves(std::queue<std::string>& moves) const = 0;
+	
+	/**
+	* Function name: display_status
+	* Function Declaration
+	* @author Dr.Satvich(Documented by Mohamed Jallow)
+	* @brief This function displays the current state of the board to the user.
+	* @param there are no parameters
+	* @return the function is void so it does not return a value.
+	*/
 	// Display the status of the current game:
 	virtual void display_status( ) const = 0;
 	// Evaluate a board position:

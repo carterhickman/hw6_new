@@ -1,5 +1,17 @@
-//USELESS COMMENT
+<<<<<<< HEAD
 
+=======
+/**
+@file colors.h 
+@author Matthew Beldyk 
+@brief 		  I created this file to house some names string
+//            constants with escape codes for colors in them
+//            this makes it much easier for me to do colors.
+//            I can still use the codes if I want, but this
+//            works too.  try the statement:
+//            cout<<BLUE<<"I like cookies"<<endl;
+**/
+>>>>>>> 6d85d9ed701114506619ba7bd9512f77cfbcaa19
 
 //***********************************************************
 //

@@ -1,5 +1,8 @@
-// File: game.cxx
-
+/**
+@file game.cc
+@author Matthew Beldyk 
+@brief 		 Initiates start of game. 
+**/
 #include <cassert>    // Provides assert
 #include <climits>    // Provides INT_MAX and INT_MIN
 #include <iostream>   // Provides cin, cout

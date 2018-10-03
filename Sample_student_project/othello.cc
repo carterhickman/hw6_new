@@ -8,6 +8,14 @@
 namespace main_savitch_14
 {
 
+	/**
+	* Function name: display_status
+	* @author Brock Ferrell(Documented by Mohamed Jallow)
+	* Function definition
+	* @brief This function displays the current state of the board to the user.
+	* @param there are no parameters.
+	* @return the function is void so it does not return a value.
+	*/
 void Othello::display_status()const
 {
   cout << BLUE << "   _______ _______ _______ _______ _______ _______ _______ _______\n";
