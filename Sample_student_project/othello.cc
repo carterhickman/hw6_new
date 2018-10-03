@@ -1,7 +1,14 @@
+/**
+@file main.cc
+@author Brock Ferrell (documented by Carter Hickman) 
+@brief 	This displays the graphics for the game board, checks if game is over, checks for legal moves, executes moves, computes new moves, restarts game, skips turn, and checks whose turn it is
+**/
+
 // Brock Ferrell
 // CS2401
 // November 23, 2015
 // Project7
+
 
 #include "othello.h"
 

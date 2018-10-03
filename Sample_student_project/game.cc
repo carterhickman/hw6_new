@@ -1,7 +1,7 @@
 /**
 @file game.cc
-@author Matthew Beldyk 
-@brief 		 Initiates start of game. 
+@author Brock Ferrell(documented by Carter Hickman) 
+@brief 		 Initiates start of game and checks for end of game/restart. Calls for humans or computer to make move and will move for computer. Looks for best moves with function look ahead. The majority of the functionality of the game is here
 **/
 #include <cassert>    // Provides assert
 #include <climits>    // Provides INT_MAX and INT_MIN

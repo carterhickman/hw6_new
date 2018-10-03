@@ -1,5 +1,10 @@
 // File: game.h (part of the namespace main_savitch_14)
 
+/**
+@file game.cc
+@author Brock Ferrell(documented by Carter Hickman) 
+@brief 	header file for game.cc
+**/
 
 #ifndef MAIN_SAVITCH_GAME
 #define MAIN_SAVITCH_GAME

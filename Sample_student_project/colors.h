@@ -1,6 +1,6 @@
 /**
 @file colors.h 
-@author Matthew Beldyk 
+@author Matthew Beldyk (documented by Carter Hickman) 
 @brief 		  I created this file to house some names string
 //            constants with escape codes for colors in them
 //            this makes it much easier for me to do colors.

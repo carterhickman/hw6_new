@@ -2,6 +2,11 @@
 // CS2401
 // November 23, 2015
 // Project7
+/**
+@file othello.h
+@author Brock Ferrell(documented by Carter Hickman) 
+@brief .h file for othello.cc. Private variables and functions declared here. 
+**/
 
 #ifndef OTHELLO_H
 #define OTHELLO_H
