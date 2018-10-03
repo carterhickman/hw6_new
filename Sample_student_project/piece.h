@@ -1,3 +1,9 @@
+/**
+@file piece.h
+@author Brock Ferrell (documented by Carter Hickman) 
+@brief 	Defines each space on board as a piece. Sets pieces to white or black depending. 
+**/
+
 // Brock Ferrell
 // CS2401
 // November 23, 2015

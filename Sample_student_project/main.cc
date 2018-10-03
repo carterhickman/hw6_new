@@ -1,3 +1,10 @@
+/**
+@file main.cc
+@author Brock Ferrell (documented by Carter Hickman) 
+@brief 	Start, restart called here. No functionality, only calls for came to play or restart. 
+**/
+
+
 // Brock Ferrell
 // CS2401
 // November 23, 2015
