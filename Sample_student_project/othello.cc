@@ -206,7 +206,14 @@ void Othello::make_move(const string& move) {
 
 
 void Othello::restart() {
-
+ /**
+	* Function name: display_status
+	* @author Brock Ferrell(Documented by Carter Hickman)
+	* 
+	* @brief This function restarts the graphical game board back to normal for start of a new game.
+	* @param None :there are no parameters
+	* @return the function is void so it does not return a value.
+	*/
   gameBoard[3][3].set_white();
   gameBoard[3][4].set_black();
   gameBoard[4][3].set_black();
