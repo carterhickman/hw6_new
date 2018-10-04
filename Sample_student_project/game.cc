@@ -48,10 +48,25 @@ game::who game::play( )
 //*************************************************************************
 // OPTIONAL VIRTUAL FUNCTIONS (overriding these functions is optional)
 
+/**
+*  This function displays a message to the screen
+*  @param  message  The message to be printed to the screen
+*  @return  Nothing is returned
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
+
 void game::display_message(const string& message) const
 {
 	cout << message;
 }
+
+/**
+*  Function asks user for a move which the user then enters. If user cannot
+*  move then they enter 'S' to the screen
+*  @param No parameters passed to function
+*  @return A string is returned containing the users input of their move
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
 
 string game::get_user_move( ) const
 {
@@ -62,6 +77,13 @@ string game::get_user_move( ) const
 	getline(cin, answer);
 	return answer;
 }
+
+/**
+*  Function determines whih player is currently winning the game
+*  @param No parameters passed to function
+*  @return Function returns enum who which is either Human, Computer, or neutral depending on who is winning 
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
 
 game::who game::winning()const {
 
@@ -79,6 +101,13 @@ game::who game::winning()const {
 
 //*************************************************************************
 // PRIVATE FUNCTIONS (these are the same for every game)
+
+/**
+*  This function determines the best move for the computer to make
+*  @param  look_ahead is how many moves ahead should the computer consider in its evaluation, beat_this is the current best move value that the computer is checking to try to beat
+*  @return  function returns the value of what was determined to be the best move
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
 
 int game::eval_with_lookahead(int look_ahead, int beat_this)
 // Evaluate a board position with lookahead.
@@ -128,6 +157,13 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 	return -best_value;
 }
 
+/**
+*  This function determines the actual move that the computer is going to make
+*  @param No pararmeters
+*  @return Nothing returned
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
+
 void game::make_computer_move( )
 {
 	queue<string> moves;
@@ -160,6 +196,13 @@ void game::make_computer_move( )
 	// Make the best move.
 	make_move(best_move);
 }
+
+/**
+*  This fuction checks gets the users move, checks if its legal, and finally makes that move
+*  @param No pararmeters
+*  @return Nothing returned
+*  @author Brock Ferrell   Documentation by David Thompson
+*/
 
 void game::make_human_move( ) {
 	string move;
