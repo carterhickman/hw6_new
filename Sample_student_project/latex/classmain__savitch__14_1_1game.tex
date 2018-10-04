@@ -1,0 +1,184 @@
+\hypertarget{classmain__savitch__14_1_1game}{}\section{main\+\_\+savitch\+\_\+14\+:\+:game Class Reference}
+\label{classmain__savitch__14_1_1game}\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+Inheritance diagram for main\+\_\+savitch\+\_\+14\+:\+:game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmain__savitch__14_1_1game}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}\label{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}} 
+enum {\bfseries who} \{ {\bfseries H\+U\+M\+AN}, 
+{\bfseries N\+E\+U\+T\+R\+AL}, 
+{\bfseries C\+O\+M\+P\+U\+T\+ER}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+who \mbox{\hyperlink{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}{play}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classmain__savitch__14_1_1game_ac58bfc07db8e604b07d2039b2cf7ab51}{display\+\_\+message}} (const std\+::string \&message) const
+\item 
+virtual std\+::string \mbox{\hyperlink{classmain__savitch__14_1_1game_a6504d401fcc8b138ae6342c2868c8a40}{get\+\_\+user\+\_\+move}} () const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a5c1ab8b36fb977bbe9fe387e793e4ee5}\label{classmain__savitch__14_1_1game_a5c1ab8b36fb977bbe9fe387e793e4ee5}} 
+virtual who {\bfseries last\+\_\+mover} () const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a31dd5382cc6d64a6d58bcee55383cf1b}\label{classmain__savitch__14_1_1game_a31dd5382cc6d64a6d58bcee55383cf1b}} 
+virtual int {\bfseries moves\+\_\+completed} () const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a4e68409618474d19742dd5f75f92f5c9}\label{classmain__savitch__14_1_1game_a4e68409618474d19742dd5f75f92f5c9}} 
+virtual who {\bfseries next\+\_\+mover} () const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a98469e89e13c73a5ee70407a2164888c}\label{classmain__savitch__14_1_1game_a98469e89e13c73a5ee70407a2164888c}} 
+virtual who {\bfseries opposite} (who player) const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a5954eccb6abf1ae900ad853ad2af99fa}\label{classmain__savitch__14_1_1game_a5954eccb6abf1ae900ad853ad2af99fa}} 
+virtual void {\bfseries counting\+Pieces} ()=0
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a98190a2bf784ce0f20533475754d136d}\label{classmain__savitch__14_1_1game_a98190a2bf784ce0f20533475754d136d}} 
+virtual void {\bfseries whos\+Turn} ()=0
+\item 
+virtual who \mbox{\hyperlink{classmain__savitch__14_1_1game_a2f0d5338c12bd98d52fe2383ece5c45e}{winning}} () const
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a20597d0caa907aea47b27fed8be3759b}\label{classmain__savitch__14_1_1game_a20597d0caa907aea47b27fed8be3759b}} 
+virtual void {\bfseries make\+\_\+move} (const std\+::string \&move)
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_ad521a7d78e7c163a0bc28b709f0d45fd}\label{classmain__savitch__14_1_1game_ad521a7d78e7c163a0bc28b709f0d45fd}} 
+virtual void {\bfseries restart} ()
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a7b663057f59210dd52738facfc40d959}\label{classmain__savitch__14_1_1game_a7b663057f59210dd52738facfc40d959}} 
+virtual \mbox{\hyperlink{classmain__savitch__14_1_1game}{game}} $\ast$ {\bfseries clone} () const =0
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a2c0c049f5861026d0f639b5837889b7a}\label{classmain__savitch__14_1_1game_a2c0c049f5861026d0f639b5837889b7a}} 
+virtual void {\bfseries compute\+\_\+moves} (std\+::queue$<$ std\+::string $>$ \&moves) const =0
+\item 
+virtual void \mbox{\hyperlink{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}{display\+\_\+status}} () const =0
+\begin{DoxyCompactList}\small\item\em This function displays the current state of the board to the user. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a9b9c8c5e9aa57c9a430f20b87cb047aa}\label{classmain__savitch__14_1_1game_a9b9c8c5e9aa57c9a430f20b87cb047aa}} 
+virtual int {\bfseries evaluate} () const =0
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a49eed20648918b03fd3e2cf78987b3d1}\label{classmain__savitch__14_1_1game_a49eed20648918b03fd3e2cf78987b3d1}} 
+virtual bool {\bfseries is\+\_\+game\+\_\+over} () const =0
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_ad38351422ca1ee3ae58440c1c6b36b30}\label{classmain__savitch__14_1_1game_ad38351422ca1ee3ae58440c1c6b36b30}} 
+virtual bool {\bfseries is\+\_\+legal} (const std\+::string \&move) const =0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_ac4c296f4370d8e5bb5ea74b638fb827d}\label{classmain__savitch__14_1_1game_ac4c296f4370d8e5bb5ea74b638fb827d}} 
+int {\bfseries move\+\_\+number}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_ac58bfc07db8e604b07d2039b2cf7ab51}\label{classmain__savitch__14_1_1game_ac58bfc07db8e604b07d2039b2cf7ab51}} 
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!display\+\_\+message@{display\+\_\+message}}
+\index{display\+\_\+message@{display\+\_\+message}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection{\texorpdfstring{display\+\_\+message()}{display\_message()}}
+{\footnotesize\ttfamily void main\+\_\+savitch\+\_\+14\+::game\+::display\+\_\+message (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+This function displays a message to the screen 
+\begin{DoxyParams}{Parameters}
+{\em message} & The message to be printed to the screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing is returned 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Brock Ferrell Documentation by David Thompson 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}\label{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}} 
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!display\+\_\+status@{display\+\_\+status}}
+\index{display\+\_\+status@{display\+\_\+status}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection{\texorpdfstring{display\+\_\+status()}{display\_status()}}
+{\footnotesize\ttfamily virtual void main\+\_\+savitch\+\_\+14\+::game\+::display\+\_\+status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+This function displays the current state of the board to the user. 
+
+Function name\+: display\+\_\+status Function Declaration \begin{DoxyAuthor}{Author}
+Dr.\+Satvich(\+Documented by Mohamed Jallow) 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \+:there are no parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the function is void so it does not return a value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classmain__savitch__14_1_1_othello_ab01a4f7aba130133221a11224905e8ce}{main\+\_\+savitch\+\_\+14\+::\+Othello}}.
+
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a6504d401fcc8b138ae6342c2868c8a40}\label{classmain__savitch__14_1_1game_a6504d401fcc8b138ae6342c2868c8a40}} 
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!get\+\_\+user\+\_\+move@{get\+\_\+user\+\_\+move}}
+\index{get\+\_\+user\+\_\+move@{get\+\_\+user\+\_\+move}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection{\texorpdfstring{get\+\_\+user\+\_\+move()}{get\_user\_move()}}
+{\footnotesize\ttfamily string main\+\_\+savitch\+\_\+14\+::game\+::get\+\_\+user\+\_\+move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Function asks user for a move which the user then enters. If user cannot move then they enter \textquotesingle{}S\textquotesingle{} to the screen 
+\begin{DoxyParams}{Parameters}
+{\em No} & parameters passed to function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string is returned containing the users input of their move 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Brock Ferrell Documentation by David Thompson 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}\label{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}} 
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!play@{play}}
+\index{play@{play}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection{\texorpdfstring{play()}{play()}}
+{\footnotesize\ttfamily game\+::who main\+\_\+savitch\+\_\+14\+::game\+::play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This function returns whos turn it currently is in the game and weather or not the game has concluded 
+\begin{DoxyParams}{Parameters}
+{\em No} & parameters passed to function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The winner of the game is returned 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Brock Ferrell Documentation by Daniel Ingram 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classmain__savitch__14_1_1game_a2f0d5338c12bd98d52fe2383ece5c45e}\label{classmain__savitch__14_1_1game_a2f0d5338c12bd98d52fe2383ece5c45e}} 
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!winning@{winning}}
+\index{winning@{winning}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection{\texorpdfstring{winning()}{winning()}}
+{\footnotesize\ttfamily game\+::who main\+\_\+savitch\+\_\+14\+::game\+::winning (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Function determines whih player is currently winning the game 
+\begin{DoxyParams}{Parameters}
+{\em No} & parameters passed to function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Function returns enum who which is either Human, Computer, or neutral depending on who is winning 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Brock Ferrell Documentation by David Thompson 
+\end{DoxyAuthor}
+
+
+Reimplemented in \mbox{\hyperlink{classmain__savitch__14_1_1_othello_a4ea78b18eea66c944c0a9356349e0fd4}{main\+\_\+savitch\+\_\+14\+::\+Othello}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+game.\+h\item 
+\mbox{\hyperlink{game_8cc}{game.\+cc}}\end{DoxyCompactItemize}

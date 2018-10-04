@@ -1,6 +1,6 @@
 /**
 @file game.cc
-@author Brock Ferrell(documented by Carter Hickman) 
+@author Brock Ferrell(documented by Carter Hickman)
 @brief 		 Initiates start of game and checks for end of game/restart. Calls for humans or computer to make move and will move for computer. Looks for best moves with function look ahead. The majority of the functionality of the game is here
 **/
 #include <cassert>    // Provides assert
@@ -19,6 +19,13 @@ namespace main_savitch_14
 
 //*************************************************************************
 // PUBLIC MEMBER FUNCTIONS
+
+/**
+*  This function returns whos turn it currently is in the game and weather or not the game has concluded
+*  @param   No parameters passed to function
+*  @return  The winner of the game is returned
+*  @author Brock Ferrell   Documentation by Daniel Ingram
+*/
 
 game::who game::play( )
 // The play function should not be overridden. It plays one round of the
@@ -81,7 +88,7 @@ string game::get_user_move( ) const
 /**
 *  Function determines whih player is currently winning the game
 *  @param No parameters passed to function
-*  @return Function returns enum who which is either Human, Computer, or neutral depending on who is winning 
+*  @return Function returns enum who which is either Human, Computer, or neutral depending on who is winning
 *  @author Brock Ferrell   Documentation by David Thompson
 */
 
@@ -217,6 +224,3 @@ void game::make_human_move( ) {
 }
 
 }
-
-
-
