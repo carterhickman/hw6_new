@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
-=======
+//=======
 /**
 @file colors.h 
 @author Matthew Beldyk (documented by Carter Hickman) 
@@ -11,7 +11,7 @@
 //            works too.  try the statement:
 //            cout<<BLUE<<"I like cookies"<<endl;
 **/
->>>>>>> 6d85d9ed701114506619ba7bd9512f77cfbcaa19
+//>>>>>>> 6d85d9ed701114506619ba7bd9512f77cfbcaa19
 
 //***********************************************************
 //
