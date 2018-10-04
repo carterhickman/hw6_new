@@ -1,16 +1,23 @@
-output: main.o game.o othello.o 
-	g++ main.o game.o othello.o -o output 
-	
+output: main.o game.o othello.o
+	g++ main.o game.o othello.o -o output
+
 main.o: main.cc othello.h game.h colors.h piece.h
-	g++ -c main.cc 
+	g++ -c main.cc
 
-game.o: game.cc game.h 
-	g++ -c game.cc 
+game.o: game.cc game.h
+	g++ -c game.cc
 
-othello.o: othello.cc othello.h 
+othello.o: othello.cc othello.h
 	g++ -c othello.cc
 
-clean: 
-	rm *.o output 
+clean:
+	rm *.o output
 
+docs:
+	doxygen.exe
 
+all:
+	make docs
+	make output
+	make clean
+	
