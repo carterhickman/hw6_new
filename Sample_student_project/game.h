@@ -71,7 +71,7 @@ protected:
 	* Function Declaration
 	* @author Dr.Satvich(Documented by Mohamed Jallow)
 	* @brief This function displays the current state of the board to the user.
-	* @param there are no parameters
+	* @param None :there are no parameters
 	* @return the function is void so it does not return a value.
 	*/
 	// Display the status of the current game:

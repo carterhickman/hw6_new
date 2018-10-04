@@ -1,5 +1,5 @@
 /**
-@file main.cc
+@file othello.cc
 @author Brock Ferrell (documented by Carter Hickman) 
 @brief 	This displays the graphics for the game board, checks if game is over, checks for legal moves, executes moves, computes new moves, restarts game, skips turn, and checks whose turn it is
 **/
@@ -20,7 +20,7 @@ namespace main_savitch_14
 	* @author Brock Ferrell(Documented by Mohamed Jallow)
 	* Function definition
 	* @brief This function displays the current state of the board to the user.
-	* @param there are no parameters.
+	* @param None :there are no parameters
 	* @return the function is void so it does not return a value.
 	*/
 void Othello::display_status()const

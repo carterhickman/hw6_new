@@ -29,7 +29,7 @@ public:
 	* @author Brock Ferrell(Documented by Mohamed Jallow)
 	* Function Declaration
 	* @brief This function displays the current state of the board to the user.
-	* @param there are no parameters.
+	* @param None :there are no parameters
 	* @return the function is void so it does not return a value.
 	*/
 	void display_status()const;

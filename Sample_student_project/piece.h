@@ -31,7 +31,7 @@ public:
 	* @author Brock Ferrell(Documented by Mohamed Jallow)
 	* Function Declaration
 	* @brief This function returns the boolean value for the conditional "theColor == blank".
-	* @param there are no parameters
+	* @param None :there are no parameters
 	* @return the function returns true or false depeding on what is stored in the theColor variable.
 	*/
 	bool is_blank()const {return theColor == blank;}
