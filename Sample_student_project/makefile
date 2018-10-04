@@ -15,7 +15,6 @@ clean:
 
 docs:
 	doxygen.exe
-
 all:
 	make docs
 	make output
