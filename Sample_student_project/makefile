@@ -20,4 +20,3 @@ all:
 	make docs
 	make output
 	make clean
-	
